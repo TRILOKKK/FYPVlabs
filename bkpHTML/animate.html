@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function execuda() {
+            for (var i = 0; i < arguments.length; i++) {
+                args.push(arguments[i]);
+            }
+            return _function.apply(scope, args);
+            // alert(document.getElementById('inputValue').value)
+            // var inputValues = document.getElementById('inputValue').value.split(',')
+        }
+    </script>
+    <script type = "text/javascript" src = "AnimationLibrary/CustomEvents.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/UndoFunctions.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimatedObject.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimatedLabel.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimatedCircle.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimatedRectangle.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimatedLinkedList.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/HighlightCircle.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/Line.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/ObjectManager.js"> </script>
+    <script type = "text/javascript" src = "AnimationLibrary/AnimationMain.js"> </script>
+    <script type = "text/javascript" src = "AlgorithmLibrary/Algorithm.js"> </script>
+    <script type = "text/javascript" src = "AlgorithmLibrary/Huffman.js"> </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title, duh!</title>
+</head>
+
+<body>
+    <input type="text" id="inputValue">
+    <input type="button" value="Huff" onclick="execuda()">
+</body>
+
+</html>
